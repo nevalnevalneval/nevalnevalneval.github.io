@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Favicons -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="/Mini Project 1/Assets/fromis_9 logo white.png"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Title -->
+    <title>fromis_9 | About</title>
+
+    <!-- Style -->
+    <style>
+      .banner-image {
+        background-image: url(Assets/After\ Midnight.jpg);
+        background-size: cover;
+      }
+      .alert-custom {
+        background-color: #b6b2dd;
+        color: #fff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark p-sm-2 bg-dark shadow">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <img
+            src="/Mini Project 1/Assets/fromis_9 logo white.png"
+            width="50"
+            height="50"
+            alt=""
+          />
+        </a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-target="#navbarNav"
+          data-bs-toggle="collapse"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle Navbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="about.html" class="nav-link text-white">About</a>
+            </li>
+            <li clas="nav-item">
+              <a href="#" class="nav-link text-white">Buy Now !</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About -->
+    <main>
+      
+      <section class="py-2 text-center container">
+        <div class="row py-sm-5">
+          <div class="col-sm-6 col-sm-8 mx-auto">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+              <ol class="breadcrumb justify-content-center">
+                <li class="breadcrumb-item"><a href="fromis_9.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">About</li>
+              </ol>
+            </nav>
+            <h1 class="fw-light">About</h1>
+            <p class="lead text-muted">
+              Get to know about fromis_9 members, limitless variations on nine
+              enchanting colors !
+            </p>
+            <a
+            class="btn btn-outline-secondary"
+            target="_blank"
+            href="https://www.pledis.co.kr/html/artist/fromisnine/ENG/profile?ok=1"
+            >Official Profile by PLEDIS</a
+          >
+          </div>
+        </div>
+      </section>
+
+      <!-- Members -->
+      <div class="album py-4 bg-light">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-sm-3 g-3">
+            <!-- Lee Saerom -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./Assets/Members/LSR.jpg"
+                  class="card-img-top rounded"
+                  alt="..."
+                />
+
+                <div class="card-body">
+                  <p class="card-text">Lee Saerom</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModalLSR"
+                      >
+                        View
+                      </button>
+                      <div
+                        class="modal fade"
+                        id="exampleModalLSR"
+                        tabindex="-1"
+                        aria-labelledby="exampleModalLabel"
+                        aria-hidden="true"
+                      >
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">
+                                Lee Saerom
+                              </h5>
+                              <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                              ></button>
+                            </div>
+                            <div class="modal-body">
+                              <img
+                                src="./Assets/Modal/LSR Modal.jpg"
+                                style="width: 100%; height: 100%"
+                                class="rounded"
+                                alt=""
+                              />
+                              <h1>About</h1>
+                              <p>Stage Name: Saerom (새롬)</p>
+                              <p>Birth Name: Lee Sae Rom (이새롬)</p>
+                              <p>
+                                Position: Team Captain (Leader), Lead Dancer,
+                                Vocalist, Rapper, Visual
+                              </p>
+                              <p>Birthday: January 7, 1997</p>
+                              <p>Blood Type: B</p>
+                              <p>
+                                Instagram:
+                                <a
+                                  href="https://www.instagram.com/saeromssee/"
+                                  target="_blank"
+                                  >saeromssee</a
+                                >
+                              </p>
+                              <p>Representative Animal: 🦊</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <small class="text-muted">1997.01.07</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Song Hayoung -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./Assets/Members/SHY.jpg"
+                  class="card-img-top rounded"
+                  alt="..."
+                />
+
+                <div class="card-body">
+                  <p class="card-text">Song Hayoung</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModalSHY"
+                      >
+                        View
+                      </button>
+                      <div
+                        class="modal fade"
+                        id="exampleModalSHY"
+                        tabindex="-1"
+                        aria-labelledby="exampleModalLabel"
+                        aria-hidden="true"
+                      >
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">
+                                Song Hayoung
+                              </h5>
+                              <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                              ></button>
+                            </div>
+                            <div class="modal-body">
+                              <img
+                                src="./Assets/Modal/SHY Modal.jpg"
+                                style="width: 100%; height: 100%"
+                                class="rounded"
+                                alt=""
+                              />
+                              <h1>About</h1>
+                              <p>Stage Name: Hayoung (하영)</p>
+                              <p>Birth Name: Song Ha Young (송하영)</p>
+                              <p>
+                                Position: Vice-Captain, Lead Vocalist, Main
+                                Dancer
+                              </p>
+                              <p>Birthday: September 29, 1997</p>
+                              <p>Blood Type: A</p>
+                              <p>
+                                Instagram:
+                                <a
+                                  href="https://www.instagram.com/shy9_29/"
+                                  target="_blank"
+                                  >shy9_29</a
+                                >
+                              </p>
+                              <p>Representative Animal: 🐹</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <small class="text-muted">1997.09.29</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Jang Gyuri -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./Assets/Members/JGR.jpg"
+                  class="card-img-top rounded"
+                  alt="..."
+                />
+
+                <div class="card-body">
+                  <p class="card-text">Jang Gyuri</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModalJGR"
+                      >
+                        View
+                      </button>
+                      <div
+                        class="modal fade"
+                        id="exampleModalJGR"
+                        tabindex="-1"
+                        aria-labelledby="exampleModalLabel"
+                        aria-hidden="true"
+                      >
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">
+                                Jang Gyuri
+                              </h5>
+                              <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                              ></button>
+                            </div>
+                            <div class="modal-body">
+                              <img
+                                src="./Assets/Modal/JGR Modal.jpg"
+                                style="width: 100%; height: 100%"
+                                class="rounded"
+                                alt=""
+                              />
+                              <h1>About</h1>
+                              <p>Stage Name: Gyuri (규리)</p>
+                              <p>Birth Name: Jang Gyu Ri (장규리)</p>
+                              <p>Position: Lead Vocalist, Face of The Group</p>
+                              <p>Birthday: December 27, 1997</p>
+                              <p>Blood Type: B</p>
+                              <p>
+                                Instagram:
+                                <a
+                                  href="https://www.instagram.com/gyurious_j"
+                                  target="_blank"
+                                  >gyurious_j</a
+                                >
+                              </p>
+                              <p>Representative Animal: 🐶</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <small class="text-muted">1997.12.27</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Park Jiwon -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./Assets/Members/PJW.jpg"
+                  class="card-img-top rounded"
+                  alt="..."
+                />
+
+                <div class="card-body">
+                  <p class="card-text">Park Jiwon</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModalPJW"
+                      >
+                        View
+                      </button>
+                      <div
+                        class="modal fade"
+                        id="exampleModalPJW"
+                        tabindex="-1"
+                        aria-labelledby="exampleModalLabel"
+                        aria-hidden="true"
+                      >
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">
+                                Park Jiwon
+                              </h5>
+                              <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                              ></button>
+                            </div>
+                            <div class="modal-body">
+                              <img
+                                src="./Assets/Modal/PJW Modal.jpg"
+                                style="width: 100%; height: 100%"
+                                class="rounded"
+                                alt=""
+                              />
+                              <h1>About</h1>
+                              <p>Stage Name: Jiwon (지원)</p>
+                              <p>Birth Name: Park Ji Won (박지원)</p>
+                              <p>Position: Main Vocalist</p>
+                              <p>Birthday: March 20, 1998</p>
+                              <p>Blood Type: A</p>
+                              <p>
+                                Instagram:
+                                <a
+                                  href="https://www.instagram.com/xjiwonparkx"
+                                  target="_blank"
+                                  >xjiwonparkx</a
+                                >
+                              </p>
+                              <p>Representative Animal: 🐰</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <small class="text-muted">1998.03.20</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Roh Jisun -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./Assets/Members/NJS.jpg"
+                  class="card-img-top rounded"
+                  alt="..."
+                />
+
+                <div class="card-body">
+                  <p class="card-text">Roh Jisun</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModalNJS"
+                      >
+                        View
+                      </button>
+                      <div
+                        class="modal fade"
+                        id="exampleModalNJS"
+                        tabindex="-1"
+                        aria-labelledby="exampleModalLabel"
+                        aria-hidden="true"
+                      >
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">
+                                Roh Jisun
+                              </h5>
+                              <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                              ></button>
+                            </div>
+                            <div class="modal-body">
+                              <img
+                                src="./Assets/Modal/NJS Modal.jpg"
+                                style="width: 100%; height: 100%"
+                                class="rounded"
+                                alt=""
+                              />
+                              <h1>About</h1>
+                              <p>Stage Name: Jisun (지선)</p>
+                              <p>Birth Name: Roh Ji Sun (노지선)</p>
+                              <p>Position: Lead Dancer, Vocalist, Center</p>
+                              <p>Birthday: November 23, 1998</p>
+                              <p>Blood Type: B</p>
+                              <p>
+                                Instagram:
+                                <a
+                                  href="https://www.instagram.com/rosieline_"
+                                  target="_blank"
+                                  >rosieline_</a
+                                >
+                              </p>
+                              <p>Representative Animal: 🐑</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <small class="text-muted">1998.11.23</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Lee Seoyeon -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./Assets/Members/LSY.jpg"
+                  class="card-img-top rounded"
+                  alt="..."
+                />
+
+                <div class="card-body">
+                  <p class="card-text">Lee Seoyeon</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModalLSY"
+                      >
+                        View
+                      </button>
+                      <div
+                        class="modal fade"
+                        id="exampleModalLSY"
+                        tabindex="-1"
+                        aria-labelledby="exampleModalLabel"
+                        aria-hidden="true"
+                      >
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">
+                                From.9
+                              </h5>
+                              <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                              ></button>
+                            </div>
+                            <div class="modal-body">
+                              <img
+                                src="./Assets/Modal/LSY Modal.jpg"
+                                style="width: 100%; height: 100%"
+                                class="rounded"
+                                alt=""
+                              />
+                              <h1>About</h1>
+                              <p>Stage Name: Seoyeon (서연)</p>
+                              <p>Birth Name: Lee Seo Yeon (이서연)</p>
+                              <p>Position: Main Rapper, Vocalist</p>
+                              <p>Birthday: January 22, 2000</p>
+                              <p>Blood Type: A</p>
+                              <p>
+                                Instagram:
+                                <a
+                                  href="https://www.instagram.com/im_theyeon"
+                                  target="_blank"
+                                  >im_theyeon</a
+                                >
+                              </p>
+                              <p>Representative Animal: 🐼</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <small class="text-muted">2000.01.22</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Lee Chaeyoung -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./Assets/Members/LCY.jpg"
+                  class="card-img-top rounded"
+                  alt="..."
+                />
+
+                <div class="card-body">
+                  <p class="card-text">Lee Chaeyoung</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModalLCY"
+                      >
+                        View
+                      </button>
+                      <div
+                        class="modal fade"
+                        id="exampleModalLCY"
+                        tabindex="-1"
+                        aria-labelledby="exampleModalLabel"
+                        aria-hidden="true"
+                      >
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">
+                                Lee Chaeyoung
+                              </h5>
+                              <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                              ></button>
+                            </div>
+                            <div class="modal-body">
+                              <img
+                                src="./Assets/Modal/LCY Modal.jpg"
+                                style="width: 100%; height: 100%"
+                                class="rounded"
+                                alt=""
+                              />
+                              <h1>About</h1>
+                              <p>Stage Name: Lee Chae Young (이채영)</p>
+                              <p>Birth Name: Lee Chae Young (이채영)</p>
+                              <p>
+                                Position: Main Dancer, Lead Rapper, Vocalist
+                              </p>
+                              <p>Birthday: May 14, 2000</p>
+                              <p>Blood Type: B</p>
+                              <p>
+                                Instagram:
+                                <a
+                                  href="https://www.instagram.com/chaengrang_"
+                                  target="_blank"
+                                  >chaengrang_</a
+                                >
+                              </p>
+                              <p>Representative Animal: 🐿️</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <small class="text-muted">2000.05.14</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Lee Nagyung -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./Assets/Members/LNG.jpg"
+                  class="card-img-top rounded"
+                  alt="..."
+                />
+
+                <div class="card-body">
+                  <p class="card-text">Lee Nagyung</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModalLNG"
+                      >
+                        View
+                      </button>
+                      <div
+                        class="modal fade"
+                        id="exampleModalLNG"
+                        tabindex="-1"
+                        aria-labelledby="exampleModalLabel"
+                        aria-hidden="true"
+                      >
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">
+                                Lee Nagyung
+                              </h5>
+                              <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                              ></button>
+                            </div>
+                            <div class="modal-body">
+                              <img
+                                src="./Assets/Modal/LNG Modal.jpg"
+                                style="width: 100%; height: 100%"
+                                class="rounded"
+                                alt=""
+                              />
+                              <h1>About</h1>
+                              <p>Stage Name: Nagyung (나경)</p>
+                              <p>Birth Name: Lee Na Gyung (이나경)</p>
+                              <p>
+                                Position: Lead Dancer, Vocalist, Rapper, Visual
+                              </p>
+                              <p>Birthday: June 1, 2000</p>
+                              <p>Blood Type: A</p>
+                              <p>
+                                Instagram:
+                                <a
+                                  href="https://www.instagram.com/blossomlng_0"
+                                  target="_blank"
+                                  >blossomlng_0</a
+                                >
+                              </p>
+                              <p>Representative Animal: 🐣</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <small class="text-muted">2000.06.01</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Baek Jiheon -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./Assets/Members/BJH.jpg"
+                  class="card-img-top rounded"
+                  alt="..."
+                />
+
+                <div class="card-body">
+                  <p class="card-text">Baek Jiheon</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModalBJH"
+                      >
+                        View
+                      </button>
+                      <div
+                        class="modal fade"
+                        id="exampleModalBJH"
+                        tabindex="-1"
+                        aria-labelledby="exampleModalLabel"
+                        aria-hidden="true"
+                      >
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">
+                                Baek Jiheon
+                              </h5>
+                              <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                              ></button>
+                            </div>
+                            <div class="modal-body">
+                              <img
+                                src="./Assets/Modal/BJH Modal.jpg"
+                                style="width: 100%; height: 100%"
+                                class="rounded"
+                                alt=""
+                              />
+                              <h1>About</h1>
+                              <p>Stage Name: Jiheon (지헌)</p>
+                              <p>Birth Name: Baek Ji Heon (백지헌)</p>
+                              <p>Position: Vocalist, Maknae</p>
+                              <p>Birthday: April 17, 2003</p>
+                              <p>Blood Type: B</p>
+                              <p>
+                                Instagram:
+                                <a
+                                  href="https://www.instagram.com/jiheonnibaek"
+                                  target="_blank"
+                                  >jiheonnibaek</a
+                                >
+                              </p>
+                              <p>Representative Animal: 🐋</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <small class="text-muted">2003.04.17</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <div class="container">
+      <footer class="pt-5 pb-1">
+        <div class="col">
+          <form>
+            <h5>Join the fan club now !</h5>
+            <p>
+              You will get updates about fromis_9 activities and news from us!
+            </p>
+            <div class="d-flex w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden"
+                >Email address</label
+              >
+              <input
+                id="newsletter1"
+                type="text"
+                class="form-control"
+                placeholder="Email address"
+              />
+              <button class="btn btn-dark" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+
+        <br />
+
+        <div class="col">
+          <form>
+            <h5>Feedback</h5>
+            <p>Tell us what you think about this website !</p>
+            <div class="d-flex w-100 gap-2">
+              <label
+                for="exampleFormControlTextarea1"
+                class="form-label visually-hidden"
+                >Tell us what you think about this website !</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                placeholder="Tell us what you think !"
+              ></textarea>
+              <button class="btn btn-dark" type="button">Enter</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="container">
+          <footer class="pt-3 pb-1 my-1">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item">
+                <a
+                  href="https://www.pledis.co.kr/html/artist/fromisnine/KOR/profile"
+                  class="nav-link px-2 text-muted"
+                  target="_blank"
+                  >Official Website</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="https://www.facebook.com/officialfromis9"
+                  class="nav-link px-2 text-muted"
+                  target="_blank"
+                  >Facebook</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="https://twitter.com/realfromis_9"
+                  class="nav-link px-2 text-muted"
+                  target="_blank"
+                  >Twitter</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="https://www.instagram.com/officialfromis_9/"
+                  class="nav-link px-2 text-muted"
+                  target="_blank"
+                  >Instagram</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="https://www.youtube.com/channel/UC8qO5racajmy4YgPgNJkVXg"
+                  class="nav-link px-2 text-muted"
+                  target="_blank"
+                  >Youtube</a
+                >
+              </li>
+            </ul>
+            <div class="text-center mb-3">
+            <img src="./Assets/Kweng.PNG" widht="50" height="50" alt="Kweng !" class="rounded">
+            </div>
+            <p class="text-center text-muted">
+              &copy; 2022 PLEDIS ENTERTAINMENT, created by Neval
+            </p>
+          </footer>
+        </div>
+      </footer>
+    </div>
+ 
+  </body>
+</html>
