@@ -50,6 +50,27 @@
         color: #fff;
       }
     </style>
+    
+    <!-- DOM Manipulation -->
+    <script>
+      // DOM Manipulation : mengubah image ketika cursor digerakkan ke gambar. 
+      function setNewImage () {
+        document.getElementById("from9").src = "./Assets/After Midnight.jpg";
+      }
+      function setOldImage () {
+        document.getElementById("from9").src = "./Assets/Before Midnight.jpg";
+      }
+
+      // DOM Manipulation : mengeluarkan alert ketika klik button.
+      function floverWelcome () {
+        alert("Welcome to flover fandom !");
+      }
+
+      // DOM Manipulation : mengubah text ketika cursor digerakkan ke text.
+      function changeText () {
+      document.getElementById("fromis9").innerHTML = "프로미스나인";
+      }
+    </script>
   </head>
 
   <body>
@@ -112,7 +133,7 @@
 
     <!-- Intro -->
     <div class="px-4 my-5 text-center">
-      <h1 class="display-4 fw-bold">fromis_9</h1>
+      <h1 onclick="changeText()" id="fromis9" class="display-4 fw-bold">fromis_9</h1>
       <div class="col-lg-6 mx-auto">
         <p class="lead text-muted mb-4">
           With charming visuals and a refreshing and vivacious concept, the nine
@@ -124,7 +145,8 @@
       </div>
       <div class="overflow-hidden" style="max-height: 30vh">
         <div class="container px-5">
-          <img
+          <img 
+            img id="from9" onmouseover="setNewImage()" onmouseout="setOldImage()"
             src="./Assets/Before Midnight.jpg"
             class="img-fluid border rounded mb-4"
             alt="Example image"
@@ -147,6 +169,7 @@
               enchanting colors !
             </p>
             <a
+              onclick="floverWelcome()"
               class="btn btn-outline-secondary"
               target="_blank"
               href="about.html"
